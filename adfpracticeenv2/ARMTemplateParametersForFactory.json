@@ -1,0 +1,15 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfpracticeenv2"
+		},
+		"BlobStorageLinkedService_connectionString": {
+			"value": ""
+		},
+		"SharedselfhostedIR_properties_typeProperties_linkedInfo_resourceId": {
+			"value": "/subscriptions/bcb010a1-4b89-434e-895d-95031b47239a/resourcegroups/ADF_Practice/providers/Microsoft.DataFactory/factories/adfracticeenv/integrationruntimes/IR-selfhost"
+		}
+	}
+}
