@@ -1,0 +1,12 @@
+{
+	"name": "SharedselfhostedIR",
+	"properties": {
+		"type": "SelfHosted",
+		"typeProperties": {
+			"linkedInfo": {
+				"resourceId": "/subscriptions/bcb010a1-4b89-434e-895d-95031b47239a/resourcegroups/ADF_Practice/providers/Microsoft.DataFactory/factories/adfracticeenv/integrationruntimes/IR-selfhost",
+				"authorizationType": "Rbac"
+			}
+		}
+	}
+}
