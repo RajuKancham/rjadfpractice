@@ -1,0 +1,38 @@
+{
+	"name": "AzureSqlDataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Ls_AzureSqlDatabase",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "SaleDate",
+				"type": "date"
+			},
+			{
+				"name": "SaleItem",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Country",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Quantity",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "FileName",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "tbl_Sale_Bad"
+		}
+	}
+}
