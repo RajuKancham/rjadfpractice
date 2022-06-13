@@ -11,6 +11,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'BlobStorageLinkedService'"
 		},
+		"Ls_AzureSqlDatabase_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'Ls_AzureSqlDatabase'"
+		},
 		"SharedselfhostedIR_properties_typeProperties_linkedInfo_resourceId": {
 			"type": "string",
 			"defaultValue": "/subscriptions/bcb010a1-4b89-434e-895d-95031b47239a/resourcegroups/ADF_Practice/providers/Microsoft.DataFactory/factories/adfracticeenv/integrationruntimes/IR-selfhost"
@@ -44,6 +48,9 @@
 					},
 					"BlobStorageLinkedService_connectionString": {
 						"value": "[parameters('BlobStorageLinkedService_connectionString')]"
+					},
+					"Ls_AzureSqlDatabase_connectionString": {
+						"value": "[parameters('Ls_AzureSqlDatabase_connectionString')]"
 					},
 					"SharedselfhostedIR_properties_typeProperties_linkedInfo_resourceId": {
 						"value": "[parameters('SharedselfhostedIR_properties_typeProperties_linkedInfo_resourceId')]"

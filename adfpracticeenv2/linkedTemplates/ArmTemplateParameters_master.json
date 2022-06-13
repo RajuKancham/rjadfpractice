@@ -8,6 +8,9 @@
 		"BlobStorageLinkedService_connectionString": {
 			"value": ""
 		},
+		"Ls_AzureSqlDatabase_connectionString": {
+			"value": ""
+		},
 		"SharedselfhostedIR_properties_typeProperties_linkedInfo_resourceId": {
 			"value": "/subscriptions/bcb010a1-4b89-434e-895d-95031b47239a/resourcegroups/ADF_Practice/providers/Microsoft.DataFactory/factories/adfracticeenv/integrationruntimes/IR-selfhost"
 		},
