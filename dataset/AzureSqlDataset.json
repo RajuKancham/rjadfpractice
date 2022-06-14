@@ -34,5 +34,6 @@
 			"schema": "dbo",
 			"table": "tbl_Sale_Bad"
 		}
-	}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
 }
